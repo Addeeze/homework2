@@ -1,0 +1,121 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    color: navy;
+    border-bottom: lightslategray;
+}
+
+body {
+    background-color: papayawhip;
+    color: navy;
+}
+
+figcaption {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 50px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Nav-Panel {
+    text-align: right;
+    margin-top: -5px;
+    color: white;
+}
+
+.Nav {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    color: navy;
+}
+
+p {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.Project {
+    flex: 1 0 0;
+    padding: 0px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Contact-Info {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.Contact {
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#ContactInformation {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    color: navy;
+    margin-top: 20px;
+    border-bottom: black;
+    border-top: black;
+    border-width: 10px;
+}
+
